@@ -185,8 +185,20 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 }
 ```   
 
+### References   
+
+[Spring MVC configurado sem nenhum XML][0]   
+[Configuração de uma aplicação Spring através de código Java (sem XML)][1]   
+[Complete example of a Spring MVC 3.2 project][2]
+[Spring MVC without web.xml using WebApplicationInitializer][3]
+[Spring sem XML. É possível?][4]
 
 
+[0]: http://www.sitedoph.com.br/spring-mvc-configurado-sem-nenhum-xml/
+[1]: http://www.klebermota.eti.br/2014/04/22/configuracao-de-uma-aplicacao-spring-atraves-de-codigo-java-sem-xml/
+[2]: https://geowarin.wordpress.com/2013/01/23/complete-example-of-a-spring-mvc-3-2-project/
+[3]: http://kielczewski.eu/2013/11/spring-mvc-without-web-xml-using-webapplicationinitializer/
+[4]: http://blog.caelum.com.br/spring-sem-xml/
 
 
 
