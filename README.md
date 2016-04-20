@@ -1,0 +1,2 @@
+# SpringProjectWithoutXMLConfiguration
+Spring Project without XML Configuration
