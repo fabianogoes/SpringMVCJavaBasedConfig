@@ -192,6 +192,13 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 [Complete example of a Spring MVC 3.2 project][2]
 [Spring MVC without web.xml using WebApplicationInitializer][3]
 [Spring sem XML. É possível?][4]
+[Data access with JDBC][5]
+[Annotation Type EnableTransactionManagement][6]
+[Annotation Type Configuration][7]
+[Oracle Pooling DataSource][8]
+[XML Schema-based configuration][9]
+[How to use JavaConfig to declare a JNDI datasource][10]
+
 
 
 [0]: http://www.sitedoph.com.br/spring-mvc-configurado-sem-nenhum-xml/
@@ -199,6 +206,9 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 [2]: https://geowarin.wordpress.com/2013/01/23/complete-example-of-a-spring-mvc-3-2-project/
 [3]: http://kielczewski.eu/2013/11/spring-mvc-without-web-xml-using-webapplicationinitializer/
 [4]: http://blog.caelum.com.br/spring-sem-xml/
-
-
-
+[5]: https://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html
+[6]: http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/transaction/annotation/EnableTransactionManagement.html
+[7]: http://docs.spring.io/autorepo/docs/spring/4.1.1.RELEASE/javadoc-api/org/springframework/context/annotation/Configuration.html
+[8]: http://docs.spring.io/spring-data/jdbc/docs/current/reference/html/orcl.datasource.html
+[9]: http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/xsd-config.html
+[10]: http://forum.spring.io/forum/spring-projects/container/724356-how-to-use-javaconfig-to-declare-a-jndi-datasource
