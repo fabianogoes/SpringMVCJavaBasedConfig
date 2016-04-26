@@ -189,15 +189,15 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 
 [Spring MVC configurado sem nenhum XML][0]   
 [Configuração de uma aplicação Spring através de código Java (sem XML)][1]   
-[Complete example of a Spring MVC 3.2 project][2]
-[Spring MVC without web.xml using WebApplicationInitializer][3]
-[Spring sem XML. É possível?][4]
-[Data access with JDBC][5]
-[Annotation Type EnableTransactionManagement][6]
-[Annotation Type Configuration][7]
-[Oracle Pooling DataSource][8]
-[XML Schema-based configuration][9]
-[How to use JavaConfig to declare a JNDI datasource][10]
+[Complete example of a Spring MVC 3.2 project][2]   
+[Spring MVC without web.xml using WebApplicationInitializer][3]   
+[Spring sem XML. É possível?][4]   
+[Data access with JDBC][5]   
+[Annotation Type EnableTransactionManagement][6]   
+[Annotation Type Configuration][7]   
+[Oracle Pooling DataSource][8]   
+[XML Schema-based configuration][9]   
+[How to use JavaConfig to declare a JNDI datasource][10]   
 
 
 
