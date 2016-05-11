@@ -1,4 +1,4 @@
-package br.com.tdv.testspring.config;
+package com.eprogramar.spring.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

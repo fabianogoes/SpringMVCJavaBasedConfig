@@ -1,4 +1,4 @@
-package br.com.tdv.testspring.config;
+package com.eprogramar.spring.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "br.com.tdv.testspring.controllers", "br.com.tdv.testspring.repositories" })
+@ComponentScan(basePackages = { "com.eprogramar.spring.controllers", "com.eprogramar.spring.repositories" })
 public class WebConfig extends WebMvcConfigurerAdapter  {
 
 	@Override
@@ -35,7 +35,7 @@ public class WebConfig extends WebMvcConfigurerAdapter  {
 	public ViewResolver viewResolver() {
 
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-		viewResolver.setPrefix("/WEB-INF/view/");
+		viewResolver.setPrefix("/WEB-INF/views/");
 		viewResolver.setSuffix(".jsp");
 		return viewResolver;
 	}

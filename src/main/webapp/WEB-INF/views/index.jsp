@@ -12,8 +12,14 @@
 	<jsp:include page="page-header.jsp"></jsp:include>
 
 	<div class="page-header">
-		<h1>Test Spring sem XML</h1>
+		<h1>Spring MVC Projec without XML Configuration</h1>
 	</div>
+	
+	<ul>
+		<li>Configuration Spring Listener</li>
+		<li>Configuration View Resolver</li>
+		<li>Configuration Resources Location</li>
+	</ul>
 	
 	<jsp:include page="page-footer.jsp"></jsp:include>
 
