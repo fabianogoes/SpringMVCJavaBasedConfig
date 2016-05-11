@@ -17,6 +17,9 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @ComponentScan(basePackages = { "com.eprogramar.spring.controllers", "com.eprogramar.spring.repositories" })
 public class WebConfig extends WebMvcConfigurerAdapter  {
 
+	private static final String VIEW_RESOLVER_PREFIX = "/WEB-INF/views/";
+    private static final String VIEW_RESOLVER_SUFFIX = ".jsp";
+	
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
@@ -31,13 +34,13 @@ public class WebConfig extends WebMvcConfigurerAdapter  {
 	 * 
 	 * @return o view resolver
 	 */
-	@Bean
+	@Bean(name = "jspViewResolver")
 	public ViewResolver viewResolver() {
 
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-		viewResolver.setPrefix("/WEB-INF/views/");
-		viewResolver.setSuffix(".jsp");
+		viewResolver.setPrefix(VIEW_RESOLVER_PREFIX);
+		viewResolver.setSuffix(VIEW_RESOLVER_SUFFIX);
 		return viewResolver;
 	}
-
+	
 }
