@@ -20,6 +20,7 @@
 		<li>Configuration Spring Listener</li>
 		<li>Configuration View Resolver</li>
 		<li>Configuration Resources Location</li>
+		<li>Configuration JPA</li>
 	</ul>
 	
 	<jsp:include page="page-footer.jsp"></jsp:include>

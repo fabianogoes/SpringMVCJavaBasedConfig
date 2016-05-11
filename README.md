@@ -198,7 +198,9 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 [Oracle Pooling DataSource][8]   
 [XML Schema-based configuration][9]   
 [How to use JavaConfig to declare a JNDI datasource][10]   
-
+[Spring MVC 100% livre de XML][11]
+[Spring From the Trenches: Injecting Property Values Into Configuration Beans][12]
+[Spring PropertyPlaceholderConfigurer Example using Annotation and XML to Externalize Property Values][13]
 
 
 [0]: http://www.sitedoph.com.br/spring-mvc-configurado-sem-nenhum-xml/
@@ -212,3 +214,6 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 [8]: http://docs.spring.io/spring-data/jdbc/docs/current/reference/html/orcl.datasource.html
 [9]: http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/xsd-config.html
 [10]: http://forum.spring.io/forum/spring-projects/container/724356-how-to-use-javaconfig-to-declare-a-jndi-datasource
+[11]: http://www.mballem.com/post/spring-mvc-100-livre-de-xml/
+[12]: http://www.petrikainulainen.net/programming/spring-framework/spring-from-the-trenches-injecting-property-values-into-configuration-beans/
+[13]: http://www.concretepage.com/spring/spring-propertyplaceholderconfigurer-example-using-annotation-and-xml-to-externalize-property-values
