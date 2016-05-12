@@ -204,6 +204,7 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 [Spring Data JPA Tutorial: Configuration][14]
 [Spring Data JPA - Reference Documentation][15]
 [Working with Spring Data Repositories][16]
+[SpringMVC4 + Spring Data JPA + SpringSecurity configuration using JavaConfig][17]
 
 
 [0]: http://www.sitedoph.com.br/spring-mvc-configurado-sem-nenhum-xml/
@@ -223,3 +224,4 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 [14]: http://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-part-one-configuration/   
 [15]: http://docs.spring.io/spring-data/jpa/docs/current/reference/html/   
 [16]: http://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html
+[17]: http://sivalabs.in/2014/03/springmvc4-spring-data-jpa-springsecurity-configuration-using-javaconfig/
