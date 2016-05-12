@@ -201,6 +201,9 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 [Spring MVC 100% livre de XML][11]
 [Spring From the Trenches: Injecting Property Values Into Configuration Beans][12]
 [Spring PropertyPlaceholderConfigurer Example using Annotation and XML to Externalize Property Values][13]
+[Spring Data JPA Tutorial: Configuration][14]
+[Spring Data JPA - Reference Documentation][15]
+[Working with Spring Data Repositories][16]
 
 
 [0]: http://www.sitedoph.com.br/spring-mvc-configurado-sem-nenhum-xml/
@@ -216,4 +219,7 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 [10]: http://forum.spring.io/forum/spring-projects/container/724356-how-to-use-javaconfig-to-declare-a-jndi-datasource
 [11]: http://www.mballem.com/post/spring-mvc-100-livre-de-xml/
 [12]: http://www.petrikainulainen.net/programming/spring-framework/spring-from-the-trenches-injecting-property-values-into-configuration-beans/
-[13]: http://www.concretepage.com/spring/spring-propertyplaceholderconfigurer-example-using-annotation-and-xml-to-externalize-property-values
+[13]: http://www.concretepage.com/spring/spring-propertyplaceholderconfigurer-example-using-annotation-and-xml-to-externalize-property-values   
+[14]: http://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-part-one-configuration/   
+[15]: http://docs.spring.io/spring-data/jpa/docs/current/reference/html/   
+[16]: http://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html

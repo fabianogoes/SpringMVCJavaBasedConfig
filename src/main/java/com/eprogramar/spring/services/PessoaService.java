@@ -21,7 +21,7 @@ public class PessoaService {
 	}
 
 	public List<Pessoa> findAll() {
-		return this.pessoaRepository.findAll();
+		return (List<Pessoa>) this.pessoaRepository.findAll();
 	}
 
 	public Pessoa findOne(Long id) {
@@ -29,7 +29,7 @@ public class PessoaService {
 	}
 
 	public void remove(Long id) {
-		this.pessoaRepository.remove(id);
+		this.pessoaRepository.delete(id);
 	}
 	
 }
